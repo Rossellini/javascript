@@ -1,0 +1,23 @@
+.circles {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle1 {
+    width: 90px;
+    height: 90px;
+    background: #ff9900;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle2 {
+    width: 90px;
+    height: 90px;
+    background: palevioletred;
+    border-radius: 50%;
+    cursor: pointer;
+}
