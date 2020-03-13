@@ -10,14 +10,30 @@
 
 <body>
 
-    <p>How many fingers am I holding up?</p>
+    <p id="parag">How many fingers am I holding up?</p>
     <input type="text" id="user">
 
     <button id="btn">Guess</button>
 
-    <script type="text/javascript">
 
+
+    <script type="text/javascript">
+        document.getElementById("btn").onclick = function () {
+
+            var test = 0;
+            var test = 25;
+
+            var password = document.getElementById("user").value;
+
+            if (password == test) {
+                document.getElementById("btn").style.background = "#33cc33";
+            } else {
+                document.getElementById("btn").style.background = "#ff0000";
+            }
+
+        }
     </script>
+
 </body>
 
 </html>
